@@ -4,4 +4,8 @@ seaborn
 scikit-learn
 matplotlib
 datetime
-xgboost
+# pickle
+ipykernel
+streamlit
+prophet
+ # xgboost
