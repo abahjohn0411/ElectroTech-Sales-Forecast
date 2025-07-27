@@ -5,10 +5,10 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # copy requirements.txt to workdir  
-COPY requirements.txt .
+COPY requirement.txt .
 
 # execute requirements.txt to install dependencies
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirement.txt
 
 # copy everything into workdir
 COPY . .
